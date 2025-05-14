@@ -1,0 +1,16 @@
+banav x = 5;
+banav y = 10;
+x = x + y;
+
+maate x > y {
+    chhapo "x is greater!";
+} nahito {
+    chhapo "y is greater!";
+}
+
+jyasudhi x < 20 {
+    x = x + 1;
+    chhapo x;
+}
+
+pheravo x;
